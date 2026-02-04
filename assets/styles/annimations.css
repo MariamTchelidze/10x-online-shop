@@ -1,0 +1,71 @@
+/* ----------------------- HEADER ----------------------- */
+.nav-a:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+.cart-a:hover {
+  background-color: #746b60;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.nav-a2:hover {
+  color: #fff;
+  background-color: #746b60;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-12px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.logo-img:hover {
+  animation: bounce 1s ease;
+}
+
+/*----------------------- Empty pages a tag annimations -----------------------  */
+.to-home:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+  transform: scale(1.1);
+  border: 1px dashed #746b60;
+  transition: 0.3s ease-in-out;
+}
+
+@keyframes fadeandbounce {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  } /* fade done */
+  30% {
+    transform: translateY(-15px);
+  } /* bounce starts */
+  50% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-7px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

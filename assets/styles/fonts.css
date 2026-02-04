@@ -1,0 +1,185 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* ----------------------- HEADER ----------------------- */
+.nav-a {
+  color: #b3b3b2;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  white-space: nowrap;
+}
+.nav-a2 {
+  color: #0f0f0f;
+  font-size: 18px;
+  text-align: center;
+  white-space: nowrap;
+}
+/* ----------------------- Section 1 ----------------------- */
+.section1 #section1-btn {
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #ffffff;
+}
+.section1 .left-container h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ffffff;
+}
+.section1 .left-container button {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  color: #b3b3b2;
+}
+.section1 .left-container p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #676665;
+}
+.section1-a,
+.section2-a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #b3b3b2;
+}
+
+.right-container .big-text {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.right-container .small-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #81807e;
+}
+/* ----------------------- Section 2 ----------------------- */
+.section2 .grid-container-sct2 .text-div h3 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.section2 .grid-container-sct2 .text-div p {
+  font-size: 18px;
+  color: #81807e;
+  font-weight: 400;
+}
+.section2 .grid-container-sct2 .s2-div h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.section2 .grid-container-sct2 .s2-div p {
+  max-width: 412px;
+  font-size: 18px;
+  color: #81807e;
+  font-weight: 400;
+}
+/* ------------------------------ Section 3 ------------------------------  */
+.section3 .section3-grid-container .heading .headings h3 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.section3 .section3-grid-container .heading .headings p {
+  font-size: 18px;
+  color: #81807e;
+  font-weight: 400;
+}
+.product .category-a {
+  font-size: 18px;
+  color: #b3b3b2;
+  font-weight: 400;
+}
+.product-btn {
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #ffffff;
+}
+.product-info {
+  grid-area: info;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.details-p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #cccccc;
+}
+.details-span {
+  font-size: 18px;
+  font-weight: 400;
+  color: #81807e;
+}
+/*------------------------------ Section 4 ------------------------------  */
+.section4-grid-container .heading-div h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ffffff;
+}
+.section4-grid-container .heading-div p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #676665;
+}
+.content-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.content-p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #81807e;
+  line-height: 150%;
+}
+/*------------------------------ Section 6 ------------------------------  */
+.flex-sect6 h3,
+.subscribe {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.nav-sect6-a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #676665;
+}
+/* ------------------------------ Footer ------------------------------ */
+footer p {
+  font-size: 18px;
+  color: #81807e;
+  font-weight: 400;
+}
+footer nav a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #81807e;
+}
+/* ------------------------------ Empty-page fonts ------------------------------ */
+.empty-page-section h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ffffff;
+}
+.empty-page-section h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.to-home {
+  font-size: 18px;
+  font-weight: 900;
+  color: #1a1a1a;
+}
