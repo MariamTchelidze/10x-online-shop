@@ -324,9 +324,11 @@ main {
 .heading::after {
   content: url(../Images/rounded-sun.svg);
   position: absolute;
-  right: -10px;
-  top: 0;
+  right: -130px;
+  top: -100px;
   object-fit: contain;
+  animation: sun-rotate 10s linear infinite;
+  transform-origin: center;
 }
 .buttons-flex {
   display: flex;
@@ -415,7 +417,6 @@ main {
   border: 1px dashed #262626;
   border-radius: 100px;
   grid-area: tag;
-  cursor: default;
 }
 .product-btn {
   display: flex;
@@ -489,9 +490,11 @@ main {
 .heading-div::after {
   content: url(../Images/square-sun.svg);
   position: absolute;
-  right: -50px;
-  top: 0;
+  right: -200px;
+  top: -100px;
   object-fit: contain;
+  animation: sun-rotate 10s linear infinite;
+  transform-origin: center;
 }
 .content-div {
   padding: 50px;
@@ -560,6 +563,9 @@ main {
   align-items: center;
   border-radius: 12px;
   background-color: #d6cdc2;
+}
+.show-on-hover {
+  display: none;
 }
 /* ------------------------------ section6  ------------------------------*/
 .section6 {

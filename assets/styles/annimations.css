@@ -17,6 +17,56 @@
   transition: 0.3s ease-in-out;
   transform: scale(1.1);
 }
+.logo-img:hover {
+  animation: bounce 1s ease;
+}
+/* ----------------------- SECTION 1 -----------------------   */
+.section1-a:hover {
+  color: #fff;
+  background-color: #746b60;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+/* ----------------------- SECTION 2 -----------------------  */
+
+.section2-a:hover {
+  color: #fff;
+  background-color: #746b60;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+/* ----------------------- SECTION 3 -----------------------  */
+
+.product-btn:hover {
+  background-color: #ae9b84;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+  font-weight: 800;
+}
+
+/* ----------------------- Empty pages a tag annimations -----------------------  */
+.to-home:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+  transform: scale(1.1);
+  border: 1px dashed #746b60;
+  transition: 0.3s ease-in-out;
+}
+.bottom-nav-a:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+  transform: scale(1.1);
+  border: 1px dashed #746b60;
+  transition: 0.3s ease-in-out;
+}
+.bottom-nav-a:hover .show-on-hover {
+  display: block;
+}
+.bottom-nav-a:hover .hide-on-hover {
+  display: none;
+}
+/* ----------------------- Keyframe functions ----------------------- */
+/* header logo bounce  */
 @keyframes bounce {
   0% {
     transform: translateY(0);
@@ -34,19 +84,18 @@
     transform: translateY(0);
   }
 }
-.logo-img:hover {
-  animation: bounce 1s ease;
+
+/* rounded and  square sun rotates */
+@keyframes sun-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-/*----------------------- Empty pages a tag annimations -----------------------  */
-.to-home:hover {
-  background-color: #1a1a1a;
-  color: #fff;
-  transform: scale(1.1);
-  border: 1px dashed #746b60;
-  transition: 0.3s ease-in-out;
-}
-
+/* Empty page bouncing div */
 @keyframes fadeandbounce {
   0% {
     opacity: 0;
