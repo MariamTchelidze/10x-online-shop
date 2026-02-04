@@ -6,23 +6,23 @@
 სამივე მისამართზე (Home, Products, Contact) მაუსის მიტანისას თითოეულ
 ღილაზე შეცვალეთ background-color ანიმაციის სახით
 
-გამოიყენებთ transition.
+გამოიყენებთ transition. ✅
 
 ---
 
 Shop now ღილაკის გარშემო გაუჩერებლად უნდა ტრიალებდეს border
 
-გამოიყენეთ animation, keyframes, ::before, ::after, positions
+გამოიყენეთ animation, keyframes, ::before, ::after, positions ✅
 
 ---
 
-კატეგირიების ღილაკებზე (All, Mens, Womens, kids) მაუსის მიტანისას შეცვალეთ მცირეთი background-color.
+კატეგირიების ღილაკებზე (All, Mens, Womens, kids) მაუსის მიტანისას შეცვალეთ მცირეთი background-color. ✅
 
 გამოიყენეთ transition
 
 ## Elevate Your style With Our Latest Collection
 
-კატეგირიების ღილაკებზე (All, Mens, Womens, kids) მაუსის მიტანისას შეცვალეთ მცირეთი background-color.
+კატეგირიების ღილაკებზე (All, Mens, Womens, kids) მაუსის მიტანისას შეცვალეთ მცირეთი background-color. ✅
 
 გამოიყენეთ transition
 
@@ -31,20 +31,20 @@ Shop now ღილაკის გარშემო გაუჩერებლ
 თითოეული კარდის ფოტო სურათზე მაუსის მიტანისას ფოტო უნდა იზრდებოდეს
 scale(1.1)-ით ანიმაციის სახით
 
-გამოიყენეთ transition
+გამოიყენეთ transition ✅
 
 ## Have Questions Have Answers.
 
 კატეგირიების ღილაკებზე (All, Ordering, Shopping, Returns, Support) მაუსის მიტანისას შეცვალეთ მცირეთი background-color.
 
-გამოიყენეთ transition
+გამოიყენეთ transition ✅
 
 ---
 
 თითოეულ კითხვაზე რომელიც მოცემულ კომპონენტშა ჩასმული, მაუსის მიტანისას
 შეიცვალოს ტექსტის ფერი ანიმაციის სახით
 
-გამოიყენეთ transition
+გამოიყენეთ transition ✅
 
 ## Footer
 
@@ -52,13 +52,13 @@ scale(1.1)-ით ანიმაციის სახით
 რა ზომით ხდებოდეს ზემოთ ასვლა ან ქვემოთ ჩასვლა შეარჩიეთ თქვენი გემოვნებით
 ანიმაცია უნდა იწყებოდეს, გრძელდებოდეს და სრულდებოდეს ერთი სისწრაფით
 
-გამოიყენეთ Animation, translateY, linear
+გამოიყენეთ Animation, translateY, linear ✅
 
 ---
 
 Home და Products ქვემოთ მოცემულ ლინკებზე მაუსის მიტანისას შეცვალეთ ტექსტის ზომა scale(1.1)-ით
 და შეცვალეთ ტექსტის ფერი მცირედით
 
-გამოიყენეთ transition.
+გამოიყენეთ transition. ✅
 
 ### შეგიძლიათ დამოუკიდებლად დაამატოთ სასურველი ანიმაცია, მაგრამ ანიმაცია უნდა ალამაზებდეს გვერდს

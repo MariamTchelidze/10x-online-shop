@@ -27,6 +27,58 @@
   transition: 0.3s ease-in-out;
   transform: scale(1.1);
 }
+#section1-btn {
+  border-image: 1px dashed #404040;
+  border-image-slice: 1;
+  animation: dash 1s linear infinite;
+}
+.contain {
+  position: relative;
+  width: 159px;
+  height: 63px;
+  overflow: hidden;
+}
+
+.dashing {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.dashing i {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200%;
+  border-bottom: 2px dashed #ae9b84;
+  animation: slideDash 5.5s infinite linear;
+  z-index: 12; /* ამას რატო ვერ ვშვები :(  */
+}
+
+.dashing:nth-child(2) {
+  transform: rotate(90deg);
+  right: -48px;
+}
+
+.dashing:nth-child(3) {
+  transform: rotate(180deg);
+}
+
+.dashing:nth-child(4) {
+  transform: rotate(270deg);
+  left: -48px;
+}
+
+@keyframes slideDash {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
 /* ----------------------- SECTION 2 -----------------------  */
 
 .section2-a:hover {
@@ -43,7 +95,45 @@
   transform: scale(1.1);
   font-weight: 800;
 }
+.product img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+/* ----------------------- SECTION 4 -----------------------  */
+.content-div:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  border: none;
+}
+.content-heading:hover {
+  color: #ae9b84;
+}
+.content-p:hover {
+  color: #ae9b84;
+}
 
+/* ----------------------- SECTION 6 -----------------------  */
+
+.nav-sect6-a:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  color: #ae9b84;
+}
+.bottom-nav-a {
+  animation: bounceicons 8s linear infinite;
+}
+.icon1 {
+  animation-delay: 0s;
+}
+.icon2 {
+  animation-delay: 2s;
+}
+.icon3 {
+  animation-delay: 4s;
+}
+.icon4 {
+  animation-delay: 6s;
+}
 /* ----------------------- Empty pages a tag annimations -----------------------  */
 .to-home:hover {
   background-color: #1a1a1a;
@@ -115,6 +205,30 @@
     transform: translateY(-7px);
   }
   100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceicons {
+  0% {
+    transform: translateY(-70px);
+  }
+
+  10% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  50% {
+    /* transform: translateY(30px); */
+    transform: translateY(0);
+  }
+
+  100% {
+    /* transform: translateY(30px); */
     transform: translateY(0);
   }
 }

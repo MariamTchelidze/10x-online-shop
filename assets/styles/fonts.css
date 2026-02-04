@@ -160,6 +160,11 @@ footer p {
   color: #81807e;
   font-weight: 400;
 }
+.responsive-info {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+}
 footer nav a {
   font-size: 18px;
   font-weight: 400;
